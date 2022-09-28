@@ -1,0 +1,15 @@
+#!/bin/bash
+
+function Usage {
+    echo "Usage: ./run --i [test_file]"
+}
+
+function Compile {
+    cat $1 | ./wlp4scan | ./wlp4parse | ./wlp4gen > $1.asm
+}
+
+case $1 in
+    --help) Usage ;;
+	--i) Compile "$2" ;;
+    *) echo "Use --help for more information." ;;
+esac
