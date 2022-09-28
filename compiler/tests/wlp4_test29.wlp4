@@ -1,0 +1,13 @@
+int wain (int *a, int b) {
+    int *c = NULL;
+    int *d = NULL;
+    c = new int [5];
+    *c = 2;
+    *(c+1) = 3;
+    *(2+c) = 5;
+    *(3+c) = 7;
+    *(2 + c + 2) = 11;
+    d = c + 4;
+    if(d-1 >= (c+4)) {println(*d);} else {println(*c+8);}
+    return 0;
+}

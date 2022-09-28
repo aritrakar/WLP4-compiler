@@ -17,3 +17,5 @@ or
 $ chmod u+x run
 $ ./run -i [test_file]
 ```
+
+Try it out with one of the many test WLP4 files in the `tests` directory!

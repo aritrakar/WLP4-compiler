@@ -1,0 +1,11 @@
+int wain(int a, int b) {
+    int c = 0;
+    while (c <= 8){
+        c = c + 1;
+        if(c%2 == 0){
+            if (c <=4 ){println(c);} else {}
+            
+        } else {}
+    }
+    return c;
+}

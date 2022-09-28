@@ -1,0 +1,28 @@
+int wain (int *a, int b) {
+    int c = 1;
+    int *d = NULL;
+    int *e = NULL;
+    int *f = NULL;
+    int CS = 241;
+    d = new int[b+CS];
+    e = d + c;
+    f = CS + d;
+    while(e < f) {
+        if(CS/2 > c) {
+            c = c + 1;
+            println(c);
+        } else {
+            CS = CS - 1;
+            println(CS);
+        }
+        e = d + c;
+        f = CS + d;
+        if(CS+d >= d+c) {
+            if(CS != 241) {
+                println(777); 
+            } else {}
+        } else {}
+    }
+
+    return 0;
+}

@@ -1,0 +1,4 @@
+int wain(int c, int s) {
+    println(200+40+1);
+    return 1+40+200+2+3+4+c;
+}

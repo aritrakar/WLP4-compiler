@@ -1,0 +1,16 @@
+int wain(int a, int b) {
+    int* c = NULL;
+    int* d = NULL;
+    int* e = NULL;
+    *d = 2;
+    println(*d);
+    *c = 14;
+    println(*c);
+    println(*d);
+    *e = 7;
+    println(*c);
+    println(*d);
+    println(*e);
+    if(*c == *d) {println(*c);} else {println(*d);}
+    return *d;
+}

@@ -1,0 +1,8 @@
+int wain (int *a, int b) {
+    int *c = NULL;
+    c = new int [10];
+    *c = 2 * *a * b;
+    println (*c);
+    delete [] c;
+    return *c;
+}

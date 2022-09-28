@@ -1,0 +1,19 @@
+int wain (int *a, int b) {
+    int *c = NULL;
+    int *d = NULL;
+    c = new int [10];
+    *c = 2;
+    *(c+1) = 3;
+    *(c+3-1) = 5;
+    *(c+3) = 7;
+    *(c+4) = 11;
+    println(*c);
+    println(*(c+1));
+    println(*(c+2));
+    println(*(c+3));
+    println(*((((c+4)))));
+    d = c;
+    println(*d);
+    println(*d+2-1);
+    return 0;
+}

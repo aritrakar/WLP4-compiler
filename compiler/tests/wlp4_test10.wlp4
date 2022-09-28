@@ -1,0 +1,19 @@
+int wain(int start, int decrement) {
+  int startCopy = 0;
+  int two = 2;
+  int random = 3;
+  startCopy = start;
+  while(0 < two) {
+    start = startCopy;
+    while(0 < start) {
+      start = start - decrement;
+      while (0 != random){
+          println(random);
+          random = random - 1;
+      }
+    }
+    println(0);
+    two = two - 1;
+  }
+  return start;
+}

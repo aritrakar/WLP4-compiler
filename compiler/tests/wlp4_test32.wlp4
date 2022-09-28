@@ -1,0 +1,17 @@
+int one() {return 1;}
+int two() {
+    int d = 0;
+    int a = 0;
+    a = 1;
+    d = 3;
+    return a+d;
+}
+int three(){
+    int b = 3;
+    return b;
+}
+int wain(int a, int b){
+    int c = 0;
+    c = a + one() + two();
+    return c + three();
+}

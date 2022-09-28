@@ -1,0 +1,12 @@
+int one() { int e = 1; return e;}
+int sum(int a, int b) {
+    return a+b;
+}
+int three(int b){
+    return b+3;
+}
+int wain(int a, int b){
+    int c = 0;
+    c = a + one() + sum(a,b);
+    return three(c) + 5;
+}

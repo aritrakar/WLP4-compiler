@@ -1,0 +1,9 @@
+int wain(int a, int b) {
+    a = 2;
+    println(a);
+    b = 4;
+    println(a);
+    println(b);
+    if(a == b) {println(a);} else {println(b);}
+    return b;
+}

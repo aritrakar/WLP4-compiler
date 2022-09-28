@@ -1,0 +1,9 @@
+int wain(int a, int b) {
+    int c = 5;
+    int d = 23;
+    int e = 2;
+    ((((((c)))))) = 2+1*2;
+    println(c);
+    println(e + d*2);
+    return c+d - e;
+}
